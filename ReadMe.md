@@ -40,7 +40,7 @@ _Connect the positive terminal of the Capacitor to the 3.3V rail of the protoboa
 
 ## Getting Source Code
 
-	git clone --recursive https://github.com/EstebanFuentealba/video-game-module-diy.git
+	git clone --recursive https://github.com/EstebanFuentealba/Flipper-Zero-Video-Game-Module-DIY.git
 
 Make sure that all git sub-modules was recursively cloned.
 
@@ -56,7 +56,7 @@ Compiled firmware can be found in `app` folder.
 ## Flashing
 
 - Press and hold boot button, plug VGM into your computer USB
-- Copy [`vgm-fw-diy.uf2`](https://github.com/EstebanFuentealba/video-game-module-diy/releases) from `build/app` folder to newly appeared drive
+- Copy [`vgm-fw-diy.uf2`](https://github.com/EstebanFuentealba/Flipper-Zero-Video-Game-Module-DIY/releases) from `build/app` folder to newly appeared drive
 	- In MacOS `cp -X build/app/vgm-fw-diy.uf2 /Volumes/RPI-RP2 `
 
 # Extra: RP2040-PiZero-Schematic
