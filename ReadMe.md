@@ -13,31 +13,18 @@ Requirements:
 
 ## Buy
 
-- [RP2040-PiZero](https://s.click.aliexpress.com/e/_DkA131b)
-- [Flipper Zero Protoboard](https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html)
-- [1X40P 90 Degree Right Angle Single Row Male Pin Header **REVERSE**](https://s.click.aliexpress.com/e/_Dm2ZEMN)
-- [Breadboard Jumper Wire](https://s.click.aliexpress.com/e/_DBAkVO9)
-- [2x20 Pin Header (optional)](https://s.click.aliexpress.com/e/_DFUpfQl)
-- [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)
-- [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B)
+|   |   |
+|---|---|
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="150" /></a>  | [RP2040-PiZero](https://s.click.aliexpress.com/e/_DkA131b)  |
+| <a target="_blank" href="https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html"><img src="./docs/images/proto.png" width="150" /></a>  | [Flipper Zero Protoboard](https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html)  |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="150" /></a>  | [1X40P 90 Degree Right Angle Single Row Male Pin Header **REVERSE**](https://s.click.aliexpress.com/e/_Dm2ZEMN)  |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DBAkVO9"><img src="./docs/images/wires.webp" width="150" /></a> | [Breadboard Jumper Wire](https://s.click.aliexpress.com/e/_DBAkVO9)  |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DFUpfQl"><img src="./docs/images/rppinheader.jpeg" width="150" /></a>  | [2x20 Pin Header (optional)](https://s.click.aliexpress.com/e/_DFUpfQl) |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DCMb1JX"><img src="./docs/images/capacitor.webp" width="150" /></a>  | [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)  |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/hdmi.webp" width="150" /></a>  | [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B) |
 
-<p align='center'>
-    <br />
-    <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="250" /></a>
-    <br />
-</p>
-<p align='center'>
-    <br />
-    <a target="_blank" href="https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html"><img src="./docs/images/proto.png" width="250" /></a>
-    <br />
-</p>
-<p align='center'>
-    <br />
-    <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="250" /></a>
-    <br />
-</p>
 
-## Conections
+## Connections
 
 | Flipper Zero Protoboard | RP2040-PiZero |
 |-------------------------|---------------|
