@@ -1,10 +1,12 @@
-name: build
+name: build-and-release
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    # branches: [ "main" ]
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0.0, v20.15.10
+  # pull_request:
+  #   branches: [ "main" ]
 
 jobs:
   build:
@@ -12,40 +14,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: checkout
+    - name: Checkout
       uses: actions/checkout@v4
       with:
         submodules: false
 
-    - name: submodules
+    - name: Update Submodules
       run: git submodule update --init --recursive --depth 1 --jobs $(nproc)
 
-    - name: arm-none-eabi-gcc
+    - name: Install arm-none-eabi-gcc
       uses: ryanwinter/arm-none-eabi-gcc@master
       with:
         release: '10-2021.10'
         
-    - name: protoc
+    - name: Setup protoc
       uses: arduino/setup-protoc@v2
 
-    - name: pip
-      run: pip install protobuf grpcio-tools
+    - name: Install pip dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install protobuf grpcio-tools
   
-    - name: cmake
+    - name: Configure CMake
       run: cd build && cmake -DCMAKE_BUILD_TYPE=Release ..
 
-    - name: compile
+    - name: Compile
       run: cd build && make -j$(nproc)
 
-    - name: upload artifacts
+    - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: vgm-fw
+        name: vgm-fw-diy.uf2
+        compression-level: 0
         path: |
-          build/app/vgm-fw*
+          build/app/vgm-fw-diy.uf2
     - name: Release
       uses: softprops/action-gh-release@v1
-      # if: startsWith(github.ref, 'refs/tags/')
+      if: startsWith(github.ref, 'refs/tags/')
       with:
         files: |
           build/app/vgm-fw-diy.uf2

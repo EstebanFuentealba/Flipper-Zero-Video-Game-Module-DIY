@@ -19,6 +19,7 @@ Requirements:
 - [Breadboard Jumper Wire](https://s.click.aliexpress.com/e/_DBAkVO9)
 - [2x20 Pin Header (optional)](https://s.click.aliexpress.com/e/_DFUpfQl)
 - [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)
+- [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B)
 
 <p align='center'>
     <br />
