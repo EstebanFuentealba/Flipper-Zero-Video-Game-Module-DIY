@@ -64,10 +64,12 @@ Make sure that all git sub-modules was recursively cloned.
 
 Compiled firmware can be found in `app` folder.
 
+**NOTE**: If you are unable to compile, you can also download the pre-compiled file from the [**Releases**](https://github.com/EstebanFuentealba/video-game-module-diy/releases)
+
 ## Flashing
 
 - Press and hold boot button, plug VGM into your computer USB
-- Copy `vgm-fw-diy.uf2` from `build/app` folder to newly appeared drive
+- Copy [`vgm-fw-diy.uf2`](https://github.com/EstebanFuentealba/video-game-module-diy/releases) from `build/app` folder to newly appeared drive
 	- In MacOS `cp -X build/app/vgm-fw-diy.uf2 /Volumes/RPI-RP2 `
 
 # Extra: RP2040-PiZero-Schematic
