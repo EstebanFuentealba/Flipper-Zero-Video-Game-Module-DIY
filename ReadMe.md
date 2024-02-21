@@ -14,29 +14,27 @@ Requirements:
 ## Buy
 
 - [RP2040-PiZero](https://s.click.aliexpress.com/e/_DkA131b)
-	
-	<p align='center'>
-        <br />
-        <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="250" /></a>
-        <br />
-    </p>
 - [Flipper Zero Protoboard](https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html)
-	<p align='center'>
-        <br />
-        <a target="_blank" href="https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html"><img src="./docs/images/proto.png" width="250" /></a>
-        <br />
-    </p>
 - [1X40P 90 Degree Right Angle Single Row Male Pin Header **REVERSE**](https://s.click.aliexpress.com/e/_Dm2ZEMN)
-    <p align='center'>
-        <br />
-        <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="250" /></a>
-        <br />
-    </p>
-
 - [Breadboard Jumper Wire](https://s.click.aliexpress.com/e/_DBAkVO9)
 - [2x20 Pin Header (optional)](https://s.click.aliexpress.com/e/_DFUpfQl)
 - [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)
 
+<p align='center'>
+    <br />
+    <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="250" /></a>
+    <br />
+</p>
+<p align='center'>
+    <br />
+    <a target="_blank" href="https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html"><img src="./docs/images/proto.png" width="250" /></a>
+    <br />
+</p>
+<p align='center'>
+    <br />
+    <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="250" /></a>
+    <br />
+</p>
 
 ## Conections
 
@@ -68,8 +66,8 @@ Compiled firmware can be found in `app` folder.
 ## Flashing
 
 - Press and hold boot button, plug VGM into your computer USB
-- Copy `vgm-fw-*.uf2` from `build/app` folder to newly appeared drive
-	- In MacOS `cp -X build/app/vgm-fw-none.uf2 /Volumes/RPI-RP2 `
+- Copy `vgm-fw-diy.uf2` from `build/app` folder to newly appeared drive
+	- In MacOS `cp -X build/app/vgm-fw-diy.uf2 /Volumes/RPI-RP2 `
 
 # Extra: RP2040-PiZero-Schematic
 https://files.waveshare.com/wiki/RP2040-PiZero/RP2040-PiZero-Schematic.pdf
