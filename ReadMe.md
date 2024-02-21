@@ -13,15 +13,15 @@ Requirements:
 
 ## Buy
 
-| Image  |  Product |
-|---|---|
-| <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="100" /></a>  | [RP2040-PiZero](https://s.click.aliexpress.com/e/_DkA131b)  |
+| Image  |  Product | Aliexpress | Amazon
+|---|---|---|---|
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/RP2040-PiZero.webp" width="100" /></a>  | [RP2040-PiZero](https://s.click.aliexpress.com/e/_DkA131b)  | <a target="_blank" href="https://s.click.aliexpress.com/e/_DkA131b"><img src="./docs/images/aliexpress.png" width="30" /></a> | <a target="_blank" href="https://amzn.to/42NEuDA"><img src="./docs/images/amazon.png" width="30" /></a>
 | <a target="_blank" href="https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html"><img src="./docs/images/proto.png" width="100" /></a>  | [Flipper Zero Protoboard](https://www.pcbway.com/project/shareproject/Flipper_Zero_Protoboard_31f89159.html)  |
-| <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="100" /></a>  | [1X40P 90 Degree Right Angle Single Row Male Pin Header **REVERSE**](https://s.click.aliexpress.com/e/_Dm2ZEMN)  |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/90degpin.webp" width="100" /></a>  | [1X40P 90 Degree Right Angle Single Row Male Pin Header **REVERSE**](https://s.click.aliexpress.com/e/_Dm2ZEMN)  | <a target="_blank" href="https://s.click.aliexpress.com/e/_Dm2ZEMN"><img src="./docs/images/aliexpress.png" width="30" /></a> | <a target="_blank" href="https://amzn.to/42PUuoF"><img src="./docs/images/amazon.png" width="30" /></a>
 | <a target="_blank" href="https://s.click.aliexpress.com/e/_DBAkVO9"><img src="./docs/images/wires.webp" width="100" /></a> | [Breadboard Jumper Wire](https://s.click.aliexpress.com/e/_DBAkVO9)  |
 | <a target="_blank" href="https://s.click.aliexpress.com/e/_DFUpfQl"><img src="./docs/images/rppinheader.jpeg" width="100" /></a>  | [2x20 Pin Header (optional)](https://s.click.aliexpress.com/e/_DFUpfQl) |
 | <a target="_blank" href="https://s.click.aliexpress.com/e/_DCMb1JX"><img src="./docs/images/capacitor.webp" width="100" /></a>  | [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)  |
-| <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/hdmi.webp" width="100" /></a>  | [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B) |
+| <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/hdmi.webp" width="100" /></a>  | [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B) | <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/aliexpress.png" width="30" /></a> | <a target="_blank" href="https://amzn.to/3Ib9S5D"><img src="./docs/images/amazon.png" width="30" /></a>
 
 
 ## Connections
