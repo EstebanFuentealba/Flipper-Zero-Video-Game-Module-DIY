@@ -1,6 +1,6 @@
 #include <dvi.h>
 #include <dvi_serialiser.h>
-#include <common_dvi_pin_configs.h>
+#include "common_dvi_pin_configs.h"
 #include <sprite.h>
 #include <pico/multicore.h>
 #include <hardware/vreg.h>
@@ -38,11 +38,12 @@ static frame_data_t current = {0};
 static frame_data_t next = {0};
 auto_init_mutex(data_mutex);
 
-static __not_in_flash("core1_main") void core1_main() {
-    dvi_register_irqs_this_core(&dvi0, DMA_IRQ_0);
-    dvi_start(&dvi0);
-    dvi_scanbuf_main_16bpp(&dvi0);
-    __builtin_unreachable();
+void core1_main() {
+	dvi_register_irqs_this_core(&dvi0, DMA_IRQ_0);
+	while (queue_is_empty(&dvi0.q_colour_valid))
+		__wfe();
+	dvi_start(&dvi0);
+	dvi_scanbuf_main_16bpp(&dvi0);
 }
 
 static inline bool __not_in_flash("is_pixel_set")
@@ -134,7 +135,7 @@ static void __not_in_flash("core1_scanline_callback") core1_scanline_callback() 
 
 void frame_init() {
     dvi0.timing = &DVI_TIMING;
-    dvi0.ser_cfg = picodvi_dvi_cfg;
+    dvi0.ser_cfg = DVI_DEFAULT_SERIAL_CONFIG;
     dvi0.scanline_callback = core1_scanline_callback;
     dvi_init(&dvi0, next_striped_spin_lock_num(), next_striped_spin_lock_num());
 

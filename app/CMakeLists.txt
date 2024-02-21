@@ -75,9 +75,9 @@ execute_process(
 	OUTPUT_VARIABLE FW_GIT_TAG
 	OUTPUT_STRIP_TRAILING_WHITESPACE)
 
-if ("${FW_GIT_TAG}" STREQUAL "")
-	set(FW_GIT_TAG "none")
-endif()
+# if ("${FW_GIT_TAG}" STREQUAL "")
+	set(FW_GIT_TAG "diy")
+# endif()
 
 set(INFO_FLAGS
     -DFW_BUILD_DATE="${FW_BUILD_DATE}"

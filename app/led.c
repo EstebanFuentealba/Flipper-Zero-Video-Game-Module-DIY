@@ -1,9 +1,9 @@
 #include "led.h"
 #include <hardware/gpio.h>
 
-#define RED_PIN 24
-#define GREEN_PIN 21
-#define BLUE_PIN 25
+#define RED_PIN 4
+#define GREEN_PIN 14
+#define BLUE_PIN 5
 
 static bool leds_active = true;
 

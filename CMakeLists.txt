@@ -56,10 +56,16 @@ target_include_directories(FreeRTOS PUBLIC
     ${FREERTOS_SRC_DIRECTORY}/include
     ${FREERTOS_SRC_DIRECTORY}/portable/GCC/ARM_CM0
 )
-
+# To change the default serial config for all apps, pass e.g.
+#   cmake -DDVI_DEFAULT_SERIAL_CONFIG=pimoroni_demo_hdmi_cfg ..
+# then rebuild. This is applied via target_compile_definitions on each app
+# individually.
+set(DVI_DEFAULT_SERIAL_CONFIG "pico_sock_cfg" CACHE STRING
+	"Select a default pin configuration from common_dvi_pin_configs.h")
+    
 include_directories(
 	"${PICO_DVI_PATH}/assets"
-	"${PICO_DVI_PATH}/include"
+	# "${PICO_DVI_PATH}/include"
 )
 
 add_subdirectory("${PICO_DVI_PATH}/libdvi")

@@ -40,3 +40,6 @@ build/
 # KDE stuff
 .directory
 .kateproject
+
+.DS_Store
+.vscode/settings.json

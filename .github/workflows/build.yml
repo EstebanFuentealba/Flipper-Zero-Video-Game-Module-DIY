@@ -43,3 +43,9 @@ jobs:
         name: vgm-fw
         path: |
           build/app/vgm-fw*
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      # if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          build/app/vgm-fw-diy.uf2
