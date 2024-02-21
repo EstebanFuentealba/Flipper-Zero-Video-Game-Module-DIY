@@ -1,4 +1,4 @@
-# DIY Video Game Module (Powered by Raspberry Pi)
+# Flipper Zero - DIY Video Game Module (Powered by Raspberry Pi)
 ![Flipper Zero Video Game Module Powered by Raspberry Pi](./docs/images/cover.jpg)
 
 https://www.youtube.com/watch?v=03s6hPvNI-c
@@ -51,7 +51,7 @@ Make sure that all git sub-modules was recursively cloned.
 
 Compiled firmware can be found in `app` folder.
 
-**NOTE**: If you are unable to compile, you can also download the pre-compiled file from the [**Releases**](https://github.com/EstebanFuentealba/video-game-module-diy/releases)
+**NOTE**: If you are unable to compile, you can also download the pre-compiled file from the [**Releases**](https://github.com/EstebanFuentealba/Flipper-Zero-Video-Game-Module-DIY/releases)
 
 ## Flashing
 
