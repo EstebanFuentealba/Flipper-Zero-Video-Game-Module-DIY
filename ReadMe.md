@@ -59,5 +59,8 @@ Compiled firmware can be found in `app` folder.
 - Copy [`vgm-fw-diy.uf2`](https://github.com/EstebanFuentealba/Flipper-Zero-Video-Game-Module-DIY/releases) from `build/app` folder to newly appeared drive
 	- In MacOS `cp -X build/app/vgm-fw-diy.uf2 /Volumes/RPI-RP2 `
 
-# Extra: RP2040-PiZero-Schematic
+## Extra: RP2040-PiZero-Schematic
 https://files.waveshare.com/wiki/RP2040-PiZero/RP2040-PiZero-Schematic.pdf
+
+## TODO
+- [ ] Implement Accelerometer & Gyroscope
