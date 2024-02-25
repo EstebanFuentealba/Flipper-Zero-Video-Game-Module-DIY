@@ -23,6 +23,7 @@ Requirements:
 | <a target="_blank" href="https://s.click.aliexpress.com/e/_DCMb1JX"><img src="./docs/images/capacitor.webp" width="100" /></a>  | [Capacitor 25V10UF](https://s.click.aliexpress.com/e/_DCMb1JX)  |
 | <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/hdmi.webp" width="100" /></a>  | [Mini HDMI to HDMI Cable Adapter (optional)](https://s.click.aliexpress.com/e/_DeoZp3B) | <a target="_blank" href="https://s.click.aliexpress.com/e/_DeoZp3B"><img src="./docs/images/aliexpress.png" width="30" /></a> | <a target="_blank" href="https://amzn.to/3Ib9S5D"><img src="./docs/images/amazon.png" width="30" /></a>
 
+DISCLAIMER: Some links are affiliate links. As an Amazon Associate I receive a small commission (at no extra cost to you) if you make a purchase after clicking one of the affiliate links. Thanks for your support!
 
 ## Connections
 
